@@ -1,0 +1,5 @@
+Esiasennus@DESKTOP-7D5FMGA MINGW64 ~ (master)
+$ docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS               NAMES
+14769d908c85        nginx               "nginx -g 'daemon of…"   37 minutes ago      Up 37 minutes       80/tcp              recursing_aryabhata
+
