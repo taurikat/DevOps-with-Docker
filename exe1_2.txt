@@ -1,0 +1,3 @@
+Esiasennus@DESKTOP-7D5FMGA MINGW64 ~/DevOps-with-Docker (master)
+$ docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
