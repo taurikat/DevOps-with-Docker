@@ -1,18 +1,21 @@
-Esiasennus@DESKTOP-7D5FMGA MINGW64 ~ (master)
-$ docker ps -a
-CONTAINER ID        IMAGE               COMMAND                  CREATED              STATUS              PORTS               NAMES
-9e882cfcc9e0        nginx               "nginx -g 'daemon of…"   About a minute ago   Up About a minute   80/tcp              mystifying_kare
-2687d5b84da5        nginx               "nginx -g 'daemon of…"   About a minute ago   Up About a minute   80/tcp              elated_ride
-4fee925ea562        nginx               "nginx -g 'daemon of…"   About a minute ago   Up About a minute   80/tcp              reverent_babbage
-14769d908c85        nginx               "nginx -g 'daemon of…"   About an hour ago    Up About an hour    80/tcp              recursing_aryabhata
-
-Esiasennus@DESKTOP-7D5FMGA MINGW64 ~ (master)
-$
-
-Esiasennus@DESKTOP-7D5FMGA MINGW64 ~ (master)
-$ docker ps -a
+Esiasennus@DESKTOP-7D5FMGA MINGW64 ~/DevOps-with-Docker (master)
+$ docker container ls
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS               NAMES
-9e882cfcc9e0        nginx               "nginx -g 'daemon of…"   2 minutes ago       Up 2 minutes        80/tcp              mystifying_kare
+833ab4f0276f        nginx               "nginx -g 'daemon of…"   31 seconds ago      Up 29 seconds       80/tcp              elastic_kalam
+49abf7327ca2        nginx               "nginx -g 'daemon of…"   34 seconds ago      Up 33 seconds       80/tcp              agitated_chaplygin
+4d5acc5f0305        nginx               "nginx -g 'daemon of…"   39 seconds ago      Up 36 seconds       80/tcp              agitated_pasteur
+9e882cfcc9e0        nginx               "nginx -g 'daemon of…"   5 hours ago         Up 5 hours          80/tcp              mystifying_kare
 
-Esiasennus@DESKTOP-7D5FMGA MINGW64 ~ (master)
-$
+
+Esiasennus@DESKTOP-7D5FMGA MINGW64 ~/DevOps-with-Docker (master)
+$ docker container ls
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS               NAMES
+833ab4f0276f        nginx               "nginx -g 'daemon of…"   2 minutes ago       Up 2 minutes        80/tcp              elastic_kalam
+
+Esiasennus@DESKTOP-7D5FMGA MINGW64 ~/DevOps-with-Docker (master)
+$ docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                          PORTS               NAMES
+833ab4f0276f        nginx               "nginx -g 'daemon of…"   2 minutes ago       Up 2 minutes                    80/tcp              elastic_kalam
+49abf7327ca2        nginx               "nginx -g 'daemon of…"   2 minutes ago       Exited (0) 43 seconds ago                           agitated_chaplygin
+4d5acc5f0305        nginx               "nginx -g 'daemon of…"   2 minutes ago       Exited (0) 51 seconds ago                           agitated_pasteur
+9e882cfcc9e0        nginx               "nginx -g 'daemon of…"   5 hours ago         Exited (0) About a minute ago                       mystifying_kare
