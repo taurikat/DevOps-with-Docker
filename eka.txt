@@ -1,0 +1,12 @@
+Omat tiedostot'@
+ OneDrive/
+ Pictures/
+ README.md
+ Recent@
+'Saved Games'/
+ Searches/
+ Sendto@
+ Tulostinympäristö@
+ Verkkoympäristö@
+ Videos/
+
