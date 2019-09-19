@@ -1,0 +1,6 @@
+Esiasennus@DESKTOP-7D5FMGA MINGW64 ~/DevOps-with-Docker (master)
+$ docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED              STATUS              PORTS               NAMES
+6ca0edcb1ede        nginx               "nginx -g 'daemon of…"   About a minute ago   Up About a minute   80/tcp              heuristic_dirac
+47b4b4e472f8        nginx               "nginx -g 'daemon of…"   About a minute ago   Up About a minute   80/tcp              admiring_wozniak
+14769d908c85        nginx               "nginx -g 'daemon of…"   53 minutes ago       Up 53 minutes       80/tcp              recursing_aryabhata
