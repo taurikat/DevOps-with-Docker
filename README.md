@@ -1,2 +1,2 @@
 # DevOps-with-Docker
-DevOps with Docker kurssin tehtävät.
+DevOps with Docker exercises.
